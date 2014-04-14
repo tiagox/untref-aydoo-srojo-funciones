@@ -37,12 +37,14 @@
 
     <target name="compilar.aplicacion" depends="setup">
         <javac srcdir="src" destdir="${build}" includeantruntime="false" debug="yes" source="1.6" target="1.6">
+            <!-- <compilerarg value="-Xlint" /> -->
         </javac>
     </target>
 
     <target name="compilar.tests" depends="instrumentar.aplicacion">
         <javac srcdir="test" destdir="${build}/tests" includeantruntime="false" debug="yes" source="1.6" target="1.6">
             <classpath refid="classpath" />
+            <!-- <compilerarg value="-Xlint" /> -->
         </javac>
     </target>
 
