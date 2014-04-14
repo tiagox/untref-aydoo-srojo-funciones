@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import untref.aydoo.graficador.FuncionConstante;
 
-public class FuncionConstanteTests {
+public class FuncionConstanteTest {
 
     @Test
     public void evaluarEnDeberiaRetornar3CuandoConstanteEs3() {

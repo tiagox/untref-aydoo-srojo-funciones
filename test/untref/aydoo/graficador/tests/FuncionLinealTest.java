@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import untref.aydoo.graficador.FuncionLineal;
 
-public class FuncionLinealTests {
+public class FuncionLinealTest {
 
     @Test
     public void evaluarEn4DeberiaRetornar11CuandoAEs2YBEs3() {
