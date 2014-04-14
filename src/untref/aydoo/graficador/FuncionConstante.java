@@ -2,18 +2,18 @@ package untref.aydoo.graficador;
 
 public class FuncionConstante {
 
-	private float constante;
+    private float constante;
 
-	public FuncionConstante(float constante) {
+    public FuncionConstante(float constante) {
 
-		this.constante = constante;
+        this.constante = constante;
 
-	}
+    }
 
-	public float evaluarEn(float x) {
+    public float evaluarEn(float x) {
 
-		return constante;
+        return constante;
 
-	}
+    }
 
 }
