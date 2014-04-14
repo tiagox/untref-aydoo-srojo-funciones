@@ -21,15 +21,19 @@ public class FuncionLinealTest {
 
     }
 
-  @Test
-  public void evaluarEn0DeberiaDevolverElMismoValorDeB() {
+    @Test
+    public void evaluarEn0DeberiaDevolverElMismoValorDeB() {
 
-    final float a = 2.0f;
-    final float b = 3.0f;
+        final float a = 2.0f;
+        final float b = 3.0f;
 
-    float x = 0.0f;
+        float x = 0.0f;
 
-    FuncionLineal funcionLineal = new FuncionLineal(a, b);
+        FuncionLineal funcionLineal = new FuncionLineal(a, b);
+
+        Assert.assertEquals(b, funcionLineal.evaluarEn(x), 0.0001);
+
+    }
 
     Assert.assertEquals(b, funcionLineal.evaluarEn(x));
 

@@ -2,14 +2,26 @@ package untref.aydoo.graficador;
 
 public class FuncionLineal {
 
-	public FuncionLineal(float a, float b) {
+    float b;
 
-	}
+    public FuncionLineal(float a, float b) {
 
-	public float evaluarEn(float x) {
+        this.b = b;
 
-		return 11.0f;
+    }
 
-	}
+    public float evaluarEn(float x) {
+
+        float resultado;
+
+        if (x == 0) {
+          resultado = this.b;
+        } else {
+          resultado = 11.0f;
+        }
+
+        return resultado;
+
+    }
 
 }
