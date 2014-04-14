@@ -1,1 +1,8 @@
+*.class
 build
+nbproject
+.idea
+*.iml
+manifest.mf
+nbbuild.xml
+
