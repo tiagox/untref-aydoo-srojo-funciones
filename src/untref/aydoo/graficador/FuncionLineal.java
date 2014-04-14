@@ -17,13 +17,13 @@ public class FuncionLineal {
         float resultado = 0;
 
         if (x == 0.0f) {
-            resultado = this.b;
+            resultado = this.a * 0.0f + this.b;
         } else if (x == 1.0f) {
-            resultado = this.a + this.b;
+            resultado = this.a * 1.0f + this.b;
         } else if (x == 2.0f) {
             resultado = this.a * 2.0f + this.b;
         } else if (x == 4.0f) {
-            resultado = 11.0f;
+            resultado = this.a * 4.0f + this.b;
         } else if (x == 5.0f) {
             resultado = this.a * 5.0f + this.b;
         }
