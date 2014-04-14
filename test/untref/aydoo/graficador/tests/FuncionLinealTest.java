@@ -35,7 +35,21 @@ public class FuncionLinealTest {
 
     }
 
-    Assert.assertEquals(b, funcionLineal.evaluarEn(x));
+    @Test
+    public void evaluarEn1DeberiaDevolverLaSumaDeAYB() {
+
+        final float a = 2.0f;
+        final float b = 3.0f;
+
+        float x = 1.0f;
+
+        float resultado = 5.0f;
+
+        FuncionLineal funcionLineal = new FuncionLineal(a, b);
+
+        Assert.assertEquals(resultado, funcionLineal.evaluarEn(x), 0.0001);
+
+    }
 
   }
 
