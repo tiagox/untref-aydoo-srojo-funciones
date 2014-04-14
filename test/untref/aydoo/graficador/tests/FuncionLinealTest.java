@@ -51,6 +51,20 @@ public class FuncionLinealTest {
 
     }
 
-  }
+    @Test
+    public void evaluarEn2DeberiaDevolverLaSumaDeElDobleDeAYB() {
+
+        final float a = 2.0f;
+        final float b = 3.0f;
+
+        float x = 2.0f;
+
+        float resultado = 7.0f;
+
+        FuncionLineal funcionLineal = new FuncionLineal(a, b);
+
+        Assert.assertEquals(resultado, funcionLineal.evaluarEn(x), 0.0001);
+
+    }
 
 }

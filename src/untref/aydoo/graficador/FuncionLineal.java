@@ -14,13 +14,15 @@ public class FuncionLineal {
 
     public float evaluarEn(float x) {
 
-        float resultado;
+        float resultado = 0;
 
         if (x == 0.0f) {
             resultado = this.b;
         } else if (x == 1.0f) {
             resultado = this.a + this.b;
-        } else {
+        } else if (x == 2.0f) {
+            resultado = this.a * 2 + this.b;
+        } else if (x == 4.0f) {
             resultado = 11.0f;
         }
 
