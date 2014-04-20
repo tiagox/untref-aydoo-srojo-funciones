@@ -1,8 +1,8 @@
 *.class
-build
-nbproject
-.idea
-*.iml
-manifest.mf
-nbbuild.xml
 
+# Package Files #
+*.jar
+*.war
+*.ear
+
+build
